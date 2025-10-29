@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\javid.bashirov\\Desktop\\PB104\\App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA96229-B474-4D03-BCE5-E0FCBE1BF53C}|App\\App.csproj|c:\\users\\javid.bashirov\\desktop\\pb104\\app\\app\\controllers\\admin\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA96229-B474-4D03-BCE5-E0FCBE1BF53C}|App\\App.csproj|solutionrelative:app\\controllers\\admin\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3511000E-8636-4FA9-9D40-65F9711FE3CF}|Service\\Service.csproj|c:\\users\\javid.bashirov\\desktop\\pb104\\app\\service\\services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3511000E-8636-4FA9-9D40-65F9711FE3CF}|Service\\Service.csproj|solutionrelative:service\\services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3511000E-8636-4FA9-9D40-65F9711FE3CF}|Service\\Service.csproj|c:\\users\\javid.bashirov\\desktop\\pb104\\app\\service\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3511000E-8636-4FA9-9D40-65F9711FE3CF}|Service\\Service.csproj|solutionrelative:service\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\javid.bashirov\\Desktop\\PB104\\App\\Service\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\javid.bashirov\\Desktop\\PB104\\App\\Service\\Services\\AccountService.cs*",
+              "RelativeToolTip": "Service\\Services\\AccountService.cs*",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowE0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T05:12:36.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\javid.bashirov\\Desktop\\PB104\\App\\Service\\Services\\Interfaces\\IAccountService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Interfaces\\IAccountService.cs",
+              "ToolTip": "C:\\Users\\javid.bashirov\\Desktop\\PB104\\App\\Service\\Services\\Interfaces\\IAccountService.cs*",
+              "RelativeToolTip": "Service\\Services\\Interfaces\\IAccountService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T05:10:11.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\javid.bashirov\\Desktop\\PB104\\App\\App\\Controllers\\Admin\\AccountController.cs",
+              "RelativeDocumentMoniker": "App\\Controllers\\Admin\\AccountController.cs",
+              "ToolTip": "C:\\Users\\javid.bashirov\\Desktop\\PB104\\App\\App\\Controllers\\Admin\\AccountController.cs",
+              "RelativeToolTip": "App\\Controllers\\Admin\\AccountController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwEQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T05:21:55.643Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+2025-10-23 09:29:48.398 +04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-10-23 09:29:48.442 +04:00 [DBG] Hosting starting
+2025-10-23 09:29:48.496 +04:00 [INF] Now listening on: https://localhost:7226
+2025-10-23 09:29:48.497 +04:00 [INF] Now listening on: http://localhost:5069
+2025-10-23 09:29:48.497 +04:00 [DBG] Loaded hosting startup assembly App
+2025-10-23 09:29:48.498 +04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-10-23 09:29:48.499 +04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-10-23 09:29:48.499 +04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-10-23 09:29:48.522 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-23 09:29:48.523 +04:00 [INF] Hosting environment: Development
+2025-10-23 09:29:48.524 +04:00 [INF] Content root path: C:\Users\javid.bashirov\Desktop\PB104\App\App
+2025-10-23 09:29:48.525 +04:00 [DBG] Hosting started
+2025-10-23 09:29:48.692 +04:00 [DBG] Connection id "0HNGHUKNGGNA3" accepted.
+2025-10-23 09:29:48.692 +04:00 [DBG] Connection id "0HNGHUKNGGNA2" accepted.
+2025-10-23 09:29:48.693 +04:00 [DBG] Connection id "0HNGHUKNGGNA3" started.
+2025-10-23 09:29:48.694 +04:00 [DBG] Connection id "0HNGHUKNGGNA2" started.
+2025-10-23 09:29:48.703 +04:00 [DBG] Connection id "0HNGHUKNGGNA2" received FIN.
+2025-10-23 09:29:48.703 +04:00 [DBG] Connection id "0HNGHUKNGGNA3" received FIN.
+2025-10-23 09:29:48.706 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-10-23 09:29:48.706 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-10-23 09:29:48.713 +04:00 [DBG] Connection id "0HNGHUKNGGNA2" stopped.
+2025-10-23 09:29:48.713 +04:00 [DBG] Connection id "0HNGHUKNGGNA3" stopped.
+2025-10-23 09:29:48.715 +04:00 [DBG] Connection id "0HNGHUKNGGNA3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-23 09:29:48.715 +04:00 [DBG] Connection id "0HNGHUKNGGNA2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-23 09:29:48.772 +04:00 [DBG] Connection id "0HNGHUKNGGNA4" accepted.
+2025-10-23 09:29:48.773 +04:00 [DBG] Connection id "0HNGHUKNGGNA4" started.
+2025-10-23 09:29:48.788 +04:00 [DBG] Connection 0HNGHUKNGGNA4 established using the following protocol: "Tls12"
+2025-10-23 09:29:48.806 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7226/swagger/index.html - null null
+2025-10-23 09:29:48.840 +04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-10-23 09:29:48.849 +04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-10-23 09:29:48.856 +04:00 [DBG] Request did not match any endpoints
+2025-10-23 09:29:48.897 +04:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-10-23 09:29:48.898 +04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-10-23 09:29:48.906 +04:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-10-23 09:29:48.907 +04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-10-23 09:29:48.909 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7226/swagger/index.html - 200 null text/html;charset=utf-8 103.8959ms
+2025-10-23 09:29:48.911 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7226/_vs/browserLink - null null
+2025-10-23 09:29:48.912 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7226/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-23 09:29:48.920 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7226/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.2241ms
+2025-10-23 09:29:48.931 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7226/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.3914ms
+2025-10-23 09:29:48.974 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7226/swagger/v1/swagger.json - null null
+2025-10-23 09:29:48.976 +04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-10-23 09:29:48.977 +04:00 [DBG] Request did not match any endpoints
+2025-10-23 09:29:48.982 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7226/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.8465ms
+2025-10-23 09:31:06.667 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7226/api/admin/Book/GetAll - null null
+2025-10-23 09:31:06.677 +04:00 [DBG] 1 candidate(s) found for the request path '/api/admin/Book/GetAll'
+2025-10-23 09:31:06.680 +04:00 [DBG] Endpoint 'App.Controllers.Admin.BookController.GetAll (App)' with route pattern 'api/admin/Book/GetAll' is valid for the request path '/api/admin/Book/GetAll'
+2025-10-23 09:31:06.682 +04:00 [DBG] Request matched endpoint 'App.Controllers.Admin.BookController.GetAll (App)'
+2025-10-23 09:31:06.685 +04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-10-23 09:31:06.687 +04:00 [INF] Executing endpoint 'App.Controllers.Admin.BookController.GetAll (App)'
+2025-10-23 09:31:06.701 +04:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller App.Controllers.Admin.BookController (App).
+2025-10-23 09:31:06.705 +04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-10-23 09:31:06.706 +04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-10-23 09:31:06.710 +04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-10-23 09:31:06.712 +04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-10-23 09:31:06.713 +04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-10-23 09:31:06.715 +04:00 [DBG] Executing controller factory for controller App.Controllers.Admin.BookController (App)
+2025-10-23 09:31:06.785 +04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-10-23 09:31:07.162 +04:00 [DBG] Entity Framework Core 8.0.21 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.21' with options: None
+2025-10-23 09:31:07.226 +04:00 [DBG] Executed controller factory for controller App.Controllers.Admin.BookController (App)
+2025-10-23 09:31:07.229 +04:00 [INF] Get all method is working
+2025-10-23 09:31:07.255 +04:00 [DBG] Compiling query expression: 
+'DbSet<Book>()'
+2025-10-23 09:31:07.382 +04:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Book>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Book.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Book.Color (string) Required, 1], [Property: Book.Name (string) Required MaxLength(100), 2], [Property: Book.SeriesNumber (int) Required, 3] }
+        SELECT b.Id, b.Color, b.Name, b.SeriesNumber
+        FROM Books AS b), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Book>, 
+    Repository.Data.AppDbContext, 
+    False, 
+    False, 
+    True
+)'
+2025-10-23 09:31:07.410 +04:00 [DBG] Creating DbConnection.
+2025-10-23 09:31:07.431 +04:00 [DBG] Created DbConnection. (18ms).
+2025-10-23 09:31:07.435 +04:00 [DBG] Opening connection to database 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS'.
+2025-10-23 09:31:07.588 +04:00 [DBG] Opened connection to database 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS'.
+2025-10-23 09:31:07.593 +04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-10-23 09:31:07.601 +04:00 [DBG] Created DbCommand for 'ExecuteReader' (5ms).
+2025-10-23 09:31:07.604 +04:00 [DBG] Initialized DbCommand for 'ExecuteReader' (11ms).
+2025-10-23 09:31:07.610 +04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Color], [b].[Name], [b].[SeriesNumber]
+FROM [Books] AS [b]
+2025-10-23 09:31:07.647 +04:00 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Color], [b].[Name], [b].[SeriesNumber]
+FROM [Books] AS [b]
+2025-10-23 09:31:07.681 +04:00 [DBG] Context 'AppDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-10-23 09:31:07.697 +04:00 [DBG] Context 'AppDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-10-23 09:31:07.699 +04:00 [DBG] Context 'AppDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-10-23 09:31:07.700 +04:00 [DBG] Context 'AppDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-10-23 09:31:07.702 +04:00 [DBG] Context 'AppDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-10-23 09:31:07.703 +04:00 [DBG] Context 'AppDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-10-23 09:31:07.708 +04:00 [DBG] Closing data reader to 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS'.
+2025-10-23 09:31:07.713 +04:00 [DBG] A data reader for 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS' is being disposed after spending 59ms reading results.
+2025-10-23 09:31:07.717 +04:00 [DBG] Closing connection to database 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS'.
+2025-10-23 09:31:07.721 +04:00 [DBG] Closed connection to database 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS' (4ms).
+2025-10-23 09:31:07.740 +04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-10-23 09:31:07.743 +04:00 [DBG] No information found on request to perform content negotiation.
+2025-10-23 09:31:07.744 +04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-10-23 09:31:07.745 +04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-10-23 09:31:07.746 +04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-10-23 09:31:07.748 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Service.DTOs.Book.BookDto, Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-23 09:31:07.756 +04:00 [INF] Executed action App.Controllers.Admin.BookController.GetAll (App) in 1039.1743ms
+2025-10-23 09:31:07.757 +04:00 [INF] Executed endpoint 'App.Controllers.Admin.BookController.GetAll (App)'
+2025-10-23 09:31:07.760 +04:00 [INF] HTTP GET /api/admin/Book/GetAll responded 200 in 1072.1416 ms
+2025-10-23 09:31:07.764 +04:00 [DBG] 'AppDbContext' disposed.
+2025-10-23 09:31:07.770 +04:00 [DBG] Disposing connection to database 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS'.
+2025-10-23 09:31:07.772 +04:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2025-10-23 09:31:07.774 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7226/api/admin/Book/GetAll - 200 null application/json; charset=utf-8 1107.0216ms
+2025-10-23 09:32:37.112 +04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-10-23 09:32:37.151 +04:00 [DBG] Hosting starting
+2025-10-23 09:32:37.202 +04:00 [INF] Now listening on: https://localhost:7226
+2025-10-23 09:32:37.203 +04:00 [INF] Now listening on: http://localhost:5069
+2025-10-23 09:32:37.205 +04:00 [DBG] Loaded hosting startup assembly App
+2025-10-23 09:32:37.206 +04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-10-23 09:32:37.207 +04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-10-23 09:32:37.207 +04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-10-23 09:32:37.228 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-23 09:32:37.229 +04:00 [INF] Hosting environment: Development
+2025-10-23 09:32:37.230 +04:00 [INF] Content root path: C:\Users\javid.bashirov\Desktop\PB104\App\App
+2025-10-23 09:32:37.230 +04:00 [DBG] Hosting started
+2025-10-23 09:32:37.420 +04:00 [DBG] Connection id "0HNGHUM9PK64R" accepted.
+2025-10-23 09:32:37.420 +04:00 [DBG] Connection id "0HNGHUM9PK64Q" accepted.
+2025-10-23 09:32:37.420 +04:00 [DBG] Connection id "0HNGHUM9PK64R" started.
+2025-10-23 09:32:37.421 +04:00 [DBG] Connection id "0HNGHUM9PK64Q" started.
+2025-10-23 09:32:37.422 +04:00 [DBG] Connection id "0HNGHUM9PK64R" received FIN.
+2025-10-23 09:32:37.422 +04:00 [DBG] Connection id "0HNGHUM9PK64Q" received FIN.
+2025-10-23 09:32:37.427 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-10-23 09:32:37.427 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-10-23 09:32:37.435 +04:00 [DBG] Connection id "0HNGHUM9PK64Q" stopped.
+2025-10-23 09:32:37.435 +04:00 [DBG] Connection id "0HNGHUM9PK64R" stopped.
+2025-10-23 09:32:37.437 +04:00 [DBG] Connection id "0HNGHUM9PK64R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-23 09:32:37.437 +04:00 [DBG] Connection id "0HNGHUM9PK64Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-23 09:32:37.490 +04:00 [DBG] Connection id "0HNGHUM9PK64S" accepted.
+2025-10-23 09:32:37.493 +04:00 [DBG] Connection id "0HNGHUM9PK64S" started.
+2025-10-23 09:32:37.514 +04:00 [DBG] Connection 0HNGHUM9PK64S established using the following protocol: "Tls12"
+2025-10-23 09:32:37.533 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7226/swagger/index.html - null null
+2025-10-23 09:32:37.572 +04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-10-23 09:32:37.580 +04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-10-23 09:32:37.581 +04:00 [DBG] Request did not match any endpoints
+2025-10-23 09:32:37.607 +04:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-10-23 09:32:37.608 +04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-10-23 09:32:37.615 +04:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-10-23 09:32:37.616 +04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-10-23 09:32:37.618 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7226/swagger/index.html - 200 null text/html;charset=utf-8 85.5431ms
+2025-10-23 09:32:37.620 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7226/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-23 09:32:37.620 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7226/_vs/browserLink - null null
+2025-10-23 09:32:37.629 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7226/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.0092ms
+2025-10-23 09:32:37.644 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7226/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.6825ms
+2025-10-23 09:32:37.683 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7226/swagger/v1/swagger.json - null null
+2025-10-23 09:32:37.685 +04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-10-23 09:32:37.686 +04:00 [DBG] Request did not match any endpoints
+2025-10-23 09:32:37.691 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7226/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.4589ms
+2025-10-23 09:32:45.138 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7226/api/admin/Book/GetAll - null null
+2025-10-23 09:32:45.147 +04:00 [DBG] 1 candidate(s) found for the request path '/api/admin/Book/GetAll'
+2025-10-23 09:32:45.150 +04:00 [DBG] Endpoint 'App.Controllers.Admin.BookController.GetAll (App)' with route pattern 'api/admin/Book/GetAll' is valid for the request path '/api/admin/Book/GetAll'
+2025-10-23 09:32:45.152 +04:00 [DBG] Request matched endpoint 'App.Controllers.Admin.BookController.GetAll (App)'
+2025-10-23 09:32:45.154 +04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-10-23 09:32:45.156 +04:00 [INF] Executing endpoint 'App.Controllers.Admin.BookController.GetAll (App)'
+2025-10-23 09:32:45.163 +04:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller App.Controllers.Admin.BookController (App).
+2025-10-23 09:32:45.165 +04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-10-23 09:32:45.166 +04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-10-23 09:32:45.168 +04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-10-23 09:32:45.170 +04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-10-23 09:32:45.171 +04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-10-23 09:32:45.173 +04:00 [DBG] Executing controller factory for controller App.Controllers.Admin.BookController (App)
+2025-10-23 09:32:45.212 +04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-10-23 09:32:45.424 +04:00 [DBG] Entity Framework Core 8.0.21 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.21' with options: None
+2025-10-23 09:32:45.458 +04:00 [DBG] Executed controller factory for controller App.Controllers.Admin.BookController (App)
+2025-10-23 09:32:45.460 +04:00 [INF] Get all method is working
+2025-10-23 09:32:45.476 +04:00 [DBG] Compiling query expression: 
+'DbSet<Book>()'
+2025-10-23 09:32:45.544 +04:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Book>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Book.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Book.Color (string) Required, 1], [Property: Book.Name (string) Required MaxLength(100), 2], [Property: Book.SeriesNumber (int) Required, 3] }
+        SELECT b.Id, b.Color, b.Name, b.SeriesNumber
+        FROM Books AS b), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Book>, 
+    Repository.Data.AppDbContext, 
+    False, 
+    False, 
+    True
+)'
+2025-10-23 09:32:45.560 +04:00 [DBG] Creating DbConnection.
+2025-10-23 09:32:45.571 +04:00 [DBG] Created DbConnection. (10ms).
+2025-10-23 09:32:45.573 +04:00 [DBG] Opening connection to database 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS'.
+2025-10-23 09:32:45.668 +04:00 [DBG] Opened connection to database 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS'.
+2025-10-23 09:32:45.670 +04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-10-23 09:32:45.674 +04:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2025-10-23 09:32:45.675 +04:00 [DBG] Initialized DbCommand for 'ExecuteReader' (5ms).
+2025-10-23 09:32:45.678 +04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Color], [b].[Name], [b].[SeriesNumber]
+FROM [Books] AS [b]
+2025-10-23 09:32:45.701 +04:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Color], [b].[Name], [b].[SeriesNumber]
+FROM [Books] AS [b]
+2025-10-23 09:32:45.719 +04:00 [DBG] Context 'AppDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-10-23 09:32:45.727 +04:00 [DBG] Context 'AppDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-10-23 09:32:45.729 +04:00 [DBG] Context 'AppDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-10-23 09:32:45.731 +04:00 [DBG] Context 'AppDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-10-23 09:32:45.732 +04:00 [DBG] Context 'AppDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-10-23 09:32:45.734 +04:00 [DBG] Context 'AppDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-10-23 09:32:45.737 +04:00 [DBG] Closing data reader to 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS'.
+2025-10-23 09:32:45.740 +04:00 [DBG] A data reader for 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS' is being disposed after spending 35ms reading results.
+2025-10-23 09:32:45.742 +04:00 [DBG] Closing connection to database 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS'.
+2025-10-23 09:32:45.746 +04:00 [DBG] Closed connection to database 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS' (3ms).
+2025-10-23 09:32:45.754 +04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-10-23 09:32:45.756 +04:00 [DBG] No information found on request to perform content negotiation.
+2025-10-23 09:32:45.756 +04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-10-23 09:32:45.757 +04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-10-23 09:32:45.758 +04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-10-23 09:32:45.759 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Service.DTOs.Book.BookDto, Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-23 09:32:45.768 +04:00 [INF] Executed action App.Controllers.Admin.BookController.GetAll (App) in 593.4666ms
+2025-10-23 09:32:45.769 +04:00 [INF] Executed endpoint 'App.Controllers.Admin.BookController.GetAll (App)'
+2025-10-23 09:32:45.771 +04:00 [INF] HTTP GET /api/admin/Book/GetAll responded 200 in 614.8379 ms
+2025-10-23 09:32:45.774 +04:00 [DBG] 'AppDbContext' disposed.
+2025-10-23 09:32:45.776 +04:00 [DBG] Disposing connection to database 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS'.
+2025-10-23 09:32:45.777 +04:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2025-10-23 09:32:45.778 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7226/api/admin/Book/GetAll - 200 null application/json; charset=utf-8 640.9389ms
+2025-10-23 09:32:50.762 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:7226/api/admin/Book/Delete/1 - null null
+2025-10-23 09:32:50.765 +04:00 [DBG] 1 candidate(s) found for the request path '/api/admin/Book/Delete/1'
+2025-10-23 09:32:50.766 +04:00 [DBG] Endpoint 'App.Controllers.Admin.BookController.Delete (App)' with route pattern 'api/admin/Book/Delete/{id}' is valid for the request path '/api/admin/Book/Delete/1'
+2025-10-23 09:32:50.767 +04:00 [DBG] Request matched endpoint 'App.Controllers.Admin.BookController.Delete (App)'
+2025-10-23 09:32:50.768 +04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-10-23 09:32:50.770 +04:00 [INF] Executing endpoint 'App.Controllers.Admin.BookController.Delete (App)'
+2025-10-23 09:32:50.782 +04:00 [INF] Route matched with {action = "Delete", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller App.Controllers.Admin.BookController (App).
+2025-10-23 09:32:50.784 +04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-10-23 09:32:50.785 +04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-10-23 09:32:50.786 +04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-10-23 09:32:50.787 +04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-10-23 09:32:50.788 +04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-10-23 09:32:50.789 +04:00 [DBG] Executing controller factory for controller App.Controllers.Admin.BookController (App)
+2025-10-23 09:32:50.820 +04:00 [DBG] Entity Framework Core 8.0.21 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.21' with options: None
+2025-10-23 09:32:50.821 +04:00 [DBG] Executed controller factory for controller App.Controllers.Admin.BookController (App)
+2025-10-23 09:32:50.824 +04:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2025-10-23 09:32:50.825 +04:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2025-10-23 09:32:50.827 +04:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2025-10-23 09:32:50.828 +04:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2025-10-23 09:32:50.828 +04:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2025-10-23 09:32:50.834 +04:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2025-10-23 09:32:50.836 +04:00 [WRN] book deleted
+2025-10-23 09:32:50.853 +04:00 [DBG] Compiling query expression: 
+'DbSet<Book>()
+    .FirstOrDefault(e => EF.Property<int>(e, "Id") == __p_0)'
+2025-10-23 09:32:50.888 +04:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Book>(
+    asyncEnumerable: new SingleQueryingEnumerable<Book>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Book.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Book.Color (string) Required, 1], [Property: Book.Name (string) Required MaxLength(100), 2], [Property: Book.SeriesNumber (int) Required, 3] }
+            SELECT TOP(1) b.Id, b.Color, b.Name, b.SeriesNumber
+            FROM Books AS b
+            WHERE b.Id == @__p_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Book>, 
+        Repository.Data.AppDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-10-23 09:32:50.894 +04:00 [DBG] Creating DbConnection.
+2025-10-23 09:32:50.895 +04:00 [DBG] Created DbConnection. (0ms).
+2025-10-23 09:32:50.895 +04:00 [DBG] Opening connection to database 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS'.
+2025-10-23 09:32:50.897 +04:00 [DBG] Opened connection to database 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS'.
+2025-10-23 09:32:50.898 +04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-10-23 09:32:50.899 +04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-10-23 09:32:50.900 +04:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2025-10-23 09:32:50.903 +04:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[Color], [b].[Name], [b].[SeriesNumber]
+FROM [Books] AS [b]
+WHERE [b].[Id] = @__p_0
+2025-10-23 09:32:50.912 +04:00 [INF] Executed DbCommand (11ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[Color], [b].[Name], [b].[SeriesNumber]
+FROM [Books] AS [b]
+WHERE [b].[Id] = @__p_0
+2025-10-23 09:32:50.915 +04:00 [DBG] Context 'AppDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-10-23 09:32:50.916 +04:00 [DBG] Closing data reader to 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS'.
+2025-10-23 09:32:50.917 +04:00 [DBG] A data reader for 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS' is being disposed after spending 2ms reading results.
+2025-10-23 09:32:50.918 +04:00 [DBG] Closing connection to database 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS'.
+2025-10-23 09:32:50.918 +04:00 [DBG] Closed connection to database 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS' (0ms).
+2025-10-23 09:32:50.924 +04:00 [DBG] An entity of type 'Book' tracked by 'AppDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-10-23 09:32:50.927 +04:00 [DBG] SaveChanges starting for 'AppDbContext'.
+2025-10-23 09:32:50.928 +04:00 [DBG] DetectChanges starting for 'AppDbContext'.
+2025-10-23 09:32:50.935 +04:00 [DBG] DetectChanges completed for 'AppDbContext'.
+2025-10-23 09:32:50.961 +04:00 [DBG] Opening connection to database 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS'.
+2025-10-23 09:32:50.962 +04:00 [DBG] Opened connection to database 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS'.
+2025-10-23 09:32:50.964 +04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-10-23 09:32:50.964 +04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-10-23 09:32:50.965 +04:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-10-23 09:32:50.966 +04:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Books]
+OUTPUT 1
+WHERE [Id] = @p0;
+2025-10-23 09:32:50.970 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Books]
+OUTPUT 1
+WHERE [Id] = @p0;
+2025-10-23 09:32:50.975 +04:00 [DBG] Closing data reader to 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS'.
+2025-10-23 09:32:50.975 +04:00 [DBG] A data reader for 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS' is being disposed after spending 3ms reading results.
+2025-10-23 09:32:50.978 +04:00 [DBG] Closing connection to database 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS'.
+2025-10-23 09:32:50.980 +04:00 [DBG] Closed connection to database 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS' (2ms).
+2025-10-23 09:32:50.983 +04:00 [DBG] An entity of type 'Book' tracked by 'AppDbContext' changed state from '"Deleted"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-10-23 09:32:50.985 +04:00 [DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database.
+2025-10-23 09:32:50.986 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-10-23 09:32:50.987 +04:00 [INF] Executed action App.Controllers.Admin.BookController.Delete (App) in 198.1965ms
+2025-10-23 09:32:50.987 +04:00 [INF] Executed endpoint 'App.Controllers.Admin.BookController.Delete (App)'
+2025-10-23 09:32:50.988 +04:00 [INF] HTTP DELETE /api/admin/Book/Delete/1 responded 204 in 218.2421 ms
+2025-10-23 09:32:50.989 +04:00 [DBG] 'AppDbContext' disposed.
+2025-10-23 09:32:50.990 +04:00 [DBG] Disposing connection to database 'PB104ApiCleanDb' on server 'JUPITER00\SQLEXPRESS'.
+2025-10-23 09:32:50.990 +04:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-10-23 09:32:50.991 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:7226/api/admin/Book/Delete/1 - 204 null null 229.4154ms
+2025-10-23 09:35:03.093 +04:00 [DBG] Connection id "0HNGHUM9PK64S" is closing.
+2025-10-23 09:35:03.094 +04:00 [DBG] Connection id "0HNGHUM9PK64S" is closed. The last processed stream ID was 11.
+2025-10-23 09:35:03.096 +04:00 [DBG] Connection id "0HNGHUM9PK64S" received FIN.
+2025-10-23 09:35:03.097 +04:00 [DBG] Connection id "0HNGHUM9PK64S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-23 09:35:03.102 +04:00 [DBG] The connection queue processing loop for 0HNGHUM9PK64S completed.
+2025-10-23 09:35:03.103 +04:00 [DBG] Connection id "0HNGHUM9PK64S" stopped.
